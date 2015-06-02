@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title":
+    {
+      "@id": "dct:title"
+    },
+    "datasets":
+    {
+      "@id": "dcat:dataset",
+      "@type": "@id"
+    }
+  },
+  "@id": "http://melodiesproject.eu/datasets",
+  "@type": "dcat:Catalog",
+  "title": "MELODIES datasets",
+  "datasets": [
+    "http://melodiesproject.eu/datasets/1",
+    "http://melodiesproject.eu/datasets/2",
+    "http://melodiesproject.eu/datasets/3"
+  ]
+}
