@@ -2,22 +2,24 @@
   "@context": {
     "dcat": "http://www.w3.org/ns/dcat#",
     "dct": "http://purl.org/dc/terms/",
-    "title":
-    {
-      "@id": "dct:title"
-    },
-    "datasets":
-    {
-      "@id": "dcat:dataset",
-      "@type": "@id"
-    }
+    "title": { "@id": "dct:title" },
+    "datasets": { "@id": "dcat:dataset" }
   },
   "@id": "http://melodiesproject.eu/datasets",
   "@type": "dcat:Catalog",
   "title": "MELODIES datasets",
   "datasets": [
-    "http://melodiesproject.eu/datasets/1",
-    "http://melodiesproject.eu/datasets/2",
-    "http://melodiesproject.eu/datasets/3"
+    {
+  	 	"@id": "http://melodiesproject.eu/datasets/1",
+    	"title": "Land cover UK"
+    },
+    {
+  	 	"@id": "http://melodiesproject.eu/datasets/2",
+    	"title": "Land cover Bavaria"
+    },
+    {
+  	 	"@id": "http://melodiesproject.eu/datasets/3",
+    	"title": "Land cover Saxony"
+    }
   ]
 }
