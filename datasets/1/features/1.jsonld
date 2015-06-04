@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "om": "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#",
+    "tm": "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#",
+    "basic": "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#",
+    "title": { "@id": "dct:title" },
+    "phenomenonTime": { "@id": "om:phenomenonTime" },
+    "date": { "@id": "tm:dateTimePosition", "@type": "basic:Date" },
+    "begin": { "@id": "tm:begin" },
+    "end": { "@id": "tm:end" }
+  },
+  "@type": "om:DiscreteCoverageObservation",
+  "@id": "http://melodiesproject.eu/datasets/1/features/1",
+  "title": "Landcover discrete categories 2009",
+  "phenomenonTime": {
+    "@type": "tm:Period",
+    "begin": {
+      "@type": "tm:Instant",
+      "date": "2009-01-01"
+    },
+    "end": {
+      "@type": "tm:Instant",
+      "date": "2009-12-31"
+    }
+  }
+}
