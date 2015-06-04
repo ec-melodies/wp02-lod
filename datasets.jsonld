@@ -10,16 +10,16 @@
   "title": "MELODIES datasets",
   "datasets": [
     {
-  	 	"@id": "http://melodiesproject.eu/datasets/1",
-    	"title": "Land cover UK"
+      "@id": "http://melodiesproject.eu/datasets/1",
+      "title": "Land cover UK"
     },
     {
-  	 	"@id": "http://melodiesproject.eu/datasets/2",
-    	"title": "Land cover Bavaria"
+      "@id": "http://melodiesproject.eu/datasets/2",
+      "title": "Land cover Bavaria"
     },
     {
-  	 	"@id": "http://melodiesproject.eu/datasets/3",
-    	"title": "Land cover Saxony"
+      "@id": "http://melodiesproject.eu/datasets/3",
+      "title": "Land cover Saxony"
     }
   ]
 }
