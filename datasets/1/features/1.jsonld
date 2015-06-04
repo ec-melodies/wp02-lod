@@ -1,26 +1,57 @@
 {
   "@context": {
-    "om": "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#",
-    "tm": "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#",
-    "basic": "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#",
+    "w3time": "http://www.w3.org/2006/time#",
+    "oml": "http://def.seegrid.csiro.au/ontology/om/om-lite#",
+    "saml": "http://def.seegrid.csiro.au/ontology/om/sam-lite#",
+    "mel": "http://melodiesproject.eu/ont/geo#",
     "title": { "@id": "dct:title" },
-    "phenomenonTime": { "@id": "om:phenomenonTime" },
-    "date": { "@id": "tm:dateTimePosition", "@type": "basic:Date" },
-    "begin": { "@id": "tm:begin" },
-    "end": { "@id": "tm:end" }
+    "phenomenonTime": { "@id": "oml:phenomenonTime" },
+    "dateTime": { "@id": "w3time:inXSDDateTime", "@type": "xsd:dateTime" },
+    "observedProperty": { "@id": "oml:observedProperty", "@type": "@id" },
+    "featureOfInterest": { "@id": "oml:featureOfInterest" },
+    "result": { "@id": "oml:result" },
+    "crs": { "@id": "mel:crs", "@type": "@id" },
+    "bbox": { "@id": "mel:bbox", "@container": "@list" },
+    "delta": { "@id": "mel:delta", "@container": "@list" },
+    "params": { "@id": "mel:parameter" },
+    "values": { "@id": "mel:values", "@container": "@list" }
   },
-  "@type": "om:DiscreteCoverageObservation",
+  "@type": "oml:Observation",
   "@id": "http://melodiesproject.eu/datasets/1/features/1",
   "title": "Landcover discrete categories 2009",
   "phenomenonTime": {
-    "@type": "tm:Period",
-    "begin": {
-      "@type": "tm:Instant",
-      "date": "2009-01-01"
+    "@type": "w3time:ProperInterval",
+    "hasBeginning": {
+      "@type": "w3time:Instant",
+      "dateTime": "2009-01-01T00:00:00"
     },
-    "end": {
-      "@type": "tm:Instant",
-      "date": "2009-12-31"
+    "hasEnd": {
+      "@type": "w3time:Instant",
+      "dateTime": "2009-12-31T23:59:59"
     }
+  },
+  "observedProperty": "http://vocab/bla/landcover",
+  "featureOfInterest": {
+    "@type": "mel:RegularGrid",
+    "crs": "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+    "bbox": [-180.0, -90.0, 180.0, 90.0],
+    "delta": [1, 0.5]
+  },
+  "result": {
+    "@type": "mel:ParameterCollection",
+    "params": [{
+      "observedProperty": "http://vocab/bla/landcover/category",
+      "title": "Category",
+      "categories": {
+        "1": "Forest",
+        "2": "Water",
+        "3": "Grassland"
+      },
+      "values": [10,4,2,5,6,7,8,4,2,3,6,10,4,2,5,6,7,8,4,2,3,6,10,4,2,5,6,7,8,4,2,3,6]
+    },{
+      "observedProperty": "http://vocab/bla/landcover/category_other_approach",
+      "title": "Category (other approach)",
+      "values": [4,2,5,6,7,8,4,2,3,6,10,4,2,5,6,7,8,4,2,3,6,10,4,2,5,6,7,8,4,2,3,6,3]
+    }]
   }
 }
