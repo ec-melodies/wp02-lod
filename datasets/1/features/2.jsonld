@@ -7,6 +7,7 @@
     "mel": "http://melodiesproject.eu/ont/geo#",
     "Profile": "mel:Profile",
     "ParameterCollection": "mel:ParameterCollection",
+    "Parameter": "mel:Parameter",
     "title": "dct:title",
     "Instant": "w3time:Instant",
     "phenomenonTime": "oml:phenomenonTime",
@@ -38,6 +39,7 @@
   "result": {
     "type": "ParameterCollection",
     "params": [{
+      "type": "Parameter",
       "observedProperty": "http://vocab/bla/salinity",
       "title": "Salinity",
       "uom": "http://.../...",
