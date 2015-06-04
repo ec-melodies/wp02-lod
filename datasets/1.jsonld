@@ -4,7 +4,7 @@
     "dct": "http://purl.org/dc/terms/",
     "locn": "http://www.w3.org/ns/locn#",
     "schema": "http://schema.org/",
-    "om": "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#",
+    "oml": "http://def.seegrid.csiro.au/ontology/om/om-lite#",
     "geometry": { "@id": "locn:geometry", "@type": "gsp:wktLiteral" },
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "startDate": { "@id": "schema:startDate", "@type": "xsd:date" },
@@ -54,11 +54,11 @@
   ],
   "features": [
     {
-      "@type": "om:DiscreteCoverageObservation",
+      "@type": "oml:Observation",
       "@id": "http://melodiesproject.eu/datasets/1/features/1",
       "title": "Landcover discrete categories"
     }, {
-      "@type": "om:DiscreteCoverageObservation",
+      "@type": "oml:Observation",
       "@id": "http://melodiesproject.eu/datasets/1/features/2",
       "title": "Landcover percentages"
     }
