@@ -1,6 +1,6 @@
 # Ideas on Web APIs
 
-It seems we converge on using DCAT/GeoDCAT-AP for general dataset metadata, and the distributions of a DCAT dataset to link to the actual data, which can be in form of static files or a service. Let's ignore static files for now.
+It seems we converge on using DCAT/GeoDCAT-AP for general dataset metadata, and the distributions of a DCAT dataset to link to the actual data, which can be in form of static files or services. Let's ignore static files for now.
 
 This means we have two levels on top of which an API could run:
 1. DCAT catalogue,
@@ -11,7 +11,7 @@ This means we have two levels on top of which an API could run:
 Querying DCAT datasets should not be complicated and probably only be very high-level.
 It should at a minimum be possible to filter datasets by freeform keywords, spatial and temporal extent, and provide paging. Filtering datasets based on in-depth data knowledge is way more complex to achieve and needs specialised implementations, therefore this should not be the initial focus. 
 
-As far as we know, there are no such APIs in common catalogue software (e.g. CKAN) which then also return DCAT in some form. Looking at CKAN, given the efforts of the ckanext-dcat plugin, it seems that not many pieces are missing.
+As far as we know, there are [no](https://github.com/ckan/ckanext-dcat/issues/38) such APIs in common catalogue software (e.g. CKAN) which then also return DCAT in some form. Looking at CKAN, given the efforts of the ckanext-dcat plugin, it seems that not many pieces are missing.
 
 Given the relative simplicity of such API, a good method to advertise it in a standard way, once implemented, would be to publish OpenSearch descriptors based on the OpenSearch Geo and Time Extensions (OGC 10-032r8). That way, simple clients can do keyword-based search, and advanced clients geo/time search.
 
@@ -21,4 +21,6 @@ Having such a filter/paging API is crucial for external ingestion (based on LOD 
 
 ## Data API
 
+A data API can be anything from a (Geo)SPARQL, Linked Data Fragments, OGC W*S, OPeNDAP, or other endpoint. A dataset can have multiple APIs to represent data in different ways, e.g. WMS for ready-made map layers, and SPARQL for direct data access to do own processing or analysis.
 
+If multiple endpoints exist, then a possible challenge is to create meaningful links between them. For example, a certain WMS layer may cover a subset of the data. Ideally, within the data, this subset is reflected as such in some way and a link to the WMS layer is given. The goal is to make using/exploring the data as easy as possible.
