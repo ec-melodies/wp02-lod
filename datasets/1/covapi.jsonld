@@ -1,0 +1,28 @@
+{
+  "@context": {...},
+  "id": "http://melodiesproject.eu/datasets/1/covapi",
+  "type": "http://.../def/covapi1",
+  "dataset": "http://melodiesproject.eu/datasets/1",
+  "capabilities": [
+    "http://.../def/covapi1/cap/filter",
+    "http://.../def/covapi1/cap/subset",
+    "http://.../def/covapi1/cap/page",
+    "http://.../def/covapi1/cap/select"
+  ],
+  "coverages": "http://melodiesproject.eu/datasets/1/covapi/coverages",
+  "coverageCount": 123,
+  "coverageTypes": [
+    "GridCoverage", "ProfileCoverage"
+  ],
+  "parameters" : {
+    "LC": {
+      "id" : "http://melodiesproject.eu/datasets/1/covapi/parameters/LC",
+      "type" : "Parameter",
+      "description" : "Land Cover according to xyz classification",
+      "observedProperty" : {
+        "id" : "http://foo/land_cover",
+        "label" : "Land Cover"
+      }
+    }
+  },
+}
