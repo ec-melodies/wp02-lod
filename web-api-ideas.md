@@ -3,6 +3,7 @@
 It seems we converge on using DCAT/GeoDCAT-AP for general dataset metadata, and the distributions of a DCAT dataset to link to the actual data, which can be in form of static files or services. Let's ignore static files for now.
 
 This means we have two levels on top of which an API could run:
+
 1. DCAT catalogue,
 2. actual data.
 
