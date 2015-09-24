@@ -26,4 +26,4 @@ A data API can be anything from a (Geo)SPARQL, Linked Data Fragments, OGC W*S, O
 
 If multiple endpoints exist, then a possible challenge is to create meaningful links between them. For example, a certain WMS layer may cover a subset of the data. Ideally, within the data, this subset is reflected as such in some way and a link to the WMS layer is given. The goal is to make using/exploring the data as easy as possible.
 
-TODO think about custom URL structures / APIs which wrap other APIs, e.g. /area/1/station/89/tube/2 could redirect to other generic data API
+A question that was raised is how to expose data with URLs that follow domain concepts, instead of just having a single SPARQL/WCS/.. endpoint for example. Easy-to-use APIs for the target group are important. The following overview describes how this can be achieved while not letting complexity explode: [CEH case study on exposing historic soil moisture data](data-api-ceh.md).
