@@ -48,5 +48,6 @@ More importantly though, in terms of metadata, what would live under such subset
 - How can APIs and their type be uniquely identified in Distributions? (use dct:type?)
 - What details of coverages should be part of the Dataset metadata? A highly useful candidate is observedProperty(s).
 - How can observedProperty(s) be included in DCAT metadata for a Coverage.
+- How should multiple Distributions with different file types be advertised if the files live at the same URL exposed via conneg? Browser clients clicking on a link would not set the appropriate Accept header. Should the files etc. always be made available with file extension overriding conneg?
 
 ### Metadata
