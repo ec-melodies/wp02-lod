@@ -49,5 +49,8 @@ More importantly though, in terms of metadata, what would live under such subset
 - What details of coverages should be part of the Dataset metadata? A highly useful candidate is observedProperty(s).
 - How can observedProperty(s) be included in DCAT metadata for a Coverage.
 - How should multiple Distributions with different file types be advertised if the files live at the same URL exposed via conneg? Browser clients clicking on a link would not set the appropriate Accept header. Should the files etc. always be made available with file extension overriding conneg?
+- If Dataset metadata is published in more than one place, which URI should be used for linking to it? Can "authoritative" Datasets be marked as such somehow? Similarly, can one express that something is a copy/mirror of a Dataset? Does this belong in "provenance"?
 
 ### Metadata
+
+TBD
