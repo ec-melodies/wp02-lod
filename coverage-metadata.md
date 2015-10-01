@@ -2,7 +2,9 @@
 
 The following is related to work discussed in the [CEO-LD project](http://www.w3.org/2015/ceo-ld/) (who provide advice on coverages to the [W3C/OGC Spatial Data on the Web Working Group](http://www.w3.org/2015/spatial)).
 
-## A vision of the future
+## Conceptual View
+
+### A vision of the future
 
 Metadata for coverages can be given on many levels and different forms. A useful way to concentrate on the essentials is to imagine a future global search engine for geospatial datasets similar to simplicity and usability of Google. What would such a search engine crawl? Which details would it need? Which users would use it? What are their needs? How domain-specific does it have to be? How does it crawl datasets? Which formats would it look at? Which would it very likely ignore? How do typical queries from users look like? ...
 
@@ -10,11 +12,11 @@ From this vision, a common denominator must emerge in terms of metadata. Ultimat
 
 This first vision stops at the metadata level and does not go further. Since actual measurement data can be expressed in many ways and different domains require different formats it is not feasible to select a winner just now. If a search engine still wants to dig into data and provide live previews or other things, then it has to support custom formats. Whichever actual formats for data are used must be clearly identified in the metadata and a link to the data established if possible. Since not all datasets are public this can end at a website for ordering the data. No matter which links are established they should always be unambiguous such that a search engine would know what they mean.
 
-## Legacy data
+### Legacy data
 
 Sometimes, data is hidden behind web forms and a direct URI to identify a dataset or coverage is not available. In that case it may not be possible to easily provide meaningful metadata for individual dataset elements like coverages. One solution may be to only provide one central metadata for the whole dataset, and in the future see how to improve the data source to support web linkability better.
 
-## What is a coverage? What is a dataset?
+### What is a coverage? What is a dataset?
 
 To come closer to the vision, we first need to be clear what a coverage and what a dataset is.
 
@@ -28,7 +30,14 @@ From the point of view of a search engine it would make a lot of sense if it cou
 
 Hence, anything that "contains" data, even if nested within some hierarchy where only the last layer represents the actual coverages, is a dataset. Handling this generic concept is only possible if rich metadata can be expressed on the contents and relationships of such datasets.
 
-## What needs Metadata?
+### Subsets of Coverages
 
-## Coverage Metadata
+It is a reoccuring use case to be able to reference subsets of coverages with a unique URI. An example is to annotate a region of a coverage (let's say it is a global grid) with some information, which can even be user feedback.
 
+The CEO-LD group is currently thinking about how those URIs could look like.
+
+More importantly though, in terms of metadata, what would live under such subset URLs if they are dereferencable (which they should be)? Since a subset is again a dataset, it only makes sense to have similar DCAT metadata for that subset, apropriately adjusting the information relevant to the subset (bounding box etc.). And again, to establish the connection to the full "parent" coverage, there must be some link to it.
+
+## Proposed Metadata for Coverages
+
+TBD
