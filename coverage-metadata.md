@@ -40,4 +40,13 @@ More importantly though, in terms of metadata, what would live under such subset
 
 ## Proposed Metadata for Coverages
 
-TBD
+### Open Issues / TODO
+
+- DCAT doesn't support hierarchies of datasets out-of-the-box. It just knows a Catalog which has Datasets. How can Datasets be related to each other?
+- How can a Dataset indicate that it represents a Coverage and not any arbitrary data?
+- How can a Dataset indicate that it represents a set of Datasets?
+- How can APIs and their type be uniquely identified in Distributions? (use dct:type?)
+- What details of coverages should be part of the Dataset metadata? A highly useful candidate is observedProperty(s).
+- How can observedProperty(s) be included in DCAT metadata for a Coverage.
+
+### Metadata
