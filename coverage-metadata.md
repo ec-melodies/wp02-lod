@@ -38,7 +38,7 @@ The CEO-LD group is currently thinking about how those URIs could look like.
 
 More importantly though, in terms of metadata, what would live under such subset URLs if they are dereferencable (which they should be)? Since a subset is again a dataset, it only makes sense to have similar DCAT metadata for that subset, apropriately adjusting the information relevant to the subset (bounding box etc.). And again, to establish the connection to the full "parent" coverage, there must be some link to it.
 
-## Proposed Metadata for Coverages
+## Proposed RDF Metadata Representation for Coverages
 
 ### Open Issues / TODO
 
@@ -51,6 +51,6 @@ More importantly though, in terms of metadata, what would live under such subset
 - How should multiple Distributions with different file types be advertised if the files live at the same URL exposed via conneg? Browser clients clicking on a link would not set the appropriate Accept header. Should the files etc. always be made available with file extension overriding conneg?
 - If Dataset metadata is published in more than one place, which URI should be used for linking to it? Can "authoritative" Datasets be marked as such somehow? Similarly, can one express that something is a copy/mirror of a Dataset? Does this belong in "provenance"?
 
-### Metadata
+### RDF Representation
 
 TBD
