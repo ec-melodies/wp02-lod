@@ -8,5 +8,15 @@ Metadata for coverages can be given on many levels and different forms. A useful
 
 From this vision, a common denominator must emerge in terms of metadata. Ultimately, one extensible format should exist from which search engines can easily choose to which level they want to go. They could start with indexing basic metadata like title, keywords, producer, spatial region, time range; and over time they could extent to more complex details if they are provided: technical data source (which sensor), data resolution, measured properties (like temperature) etc.
 
-This first vision stops at the metadata level and does not go further. Since actual measurement data can be expressed in many ways and different domains require different formats it is not feasible to select a winner just now. If a search engine still wants to dig into data and provide live previews or other things, then it has to support custom formats, which must be clearly identified and linked from the metadata.
+This first vision stops at the metadata level and does not go further. Since actual measurement data can be expressed in many ways and different domains require different formats it is not feasible to select a winner just now. If a search engine still wants to dig into data and provide live previews or other things, then it has to support custom formats. Whichever actual formats for data are used must be clearly identified in the metadata and a link to the data established if possible. Since not all datasets are public this can end at a website for ordering the data. No matter which links are established they should always be unambiguous such that a search engine would know what they mean.
+
+## Legacy data
+
+Sometimes, data is hidden behind web forms and a direct URI to identify a dataset or coverage is not available. In that case it may not be possible to easily provide meaningful metadata for individual dataset elements. One solution may be to only provide one central metadata for the whole of the dataset, and in the future see how to improve the data source to support the linked web better.
+
+## What is a coverage?
+
+## What needs Metadata?
+
+## Coverage Metadata
 
