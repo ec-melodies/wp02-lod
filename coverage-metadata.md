@@ -2,7 +2,7 @@
 
 The following is related to work discussed in the [CEO-LD project](http://www.w3.org/2015/ceo-ld/) (who provide advice on coverages to the [W3C/OGC Spatial Data on the Web Working Group](http://www.w3.org/2015/spatial)).
 
-## A vision
+## A vision of the future
 
 Metadata for coverages can be given on many levels and different forms. A useful way to concentrate on the essentials is to imagine a future global search engine for geospatial datasets similar to simplicity and usability of Google. What would such a search engine crawl? Which details would it need? Which users would use it? What are their needs? How domain-specific does it have to be? How does it crawl datasets? Which formats would it look at? Which would it very likely ignore? How do typical queries from users look like? ...
 
@@ -12,9 +12,21 @@ This first vision stops at the metadata level and does not go further. Since act
 
 ## Legacy data
 
-Sometimes, data is hidden behind web forms and a direct URI to identify a dataset or coverage is not available. In that case it may not be possible to easily provide meaningful metadata for individual dataset elements. One solution may be to only provide one central metadata for the whole of the dataset, and in the future see how to improve the data source to support the linked web better.
+Sometimes, data is hidden behind web forms and a direct URI to identify a dataset or coverage is not available. In that case it may not be possible to easily provide meaningful metadata for individual dataset elements like coverages. One solution may be to only provide one central metadata for the whole dataset, and in the future see how to improve the data source to support web linkability better.
 
-## What is a coverage?
+## What is a coverage? What is a dataset?
+
+To come closer to the vision, we first need to be clear what a coverage and what a dataset is.
+
+The definition of coverages is quite clear, citing [Wikipedia}(https://en.wikipedia.org/wiki/Coverage_data): "A coverage is represented by its "domain" (the universe of extent) and a number of range of values representing the coverage's value at each defined location." This includes metadata of the range values, that is, what the values represent, like wind speed or temperature.
+
+On the other hand, there is no clear definition of what a dataset is. DCAT describes a dataset as a "collection of data, published or curated by a single agent, and available for access or download in one or more formats".
+
+Clearly, a coverage fits the description of a DCAT dataset. But what if a provider groups several coverages as one "dataset" (e.g. many "granules" make up a global dataset)? Is this itself then again a DCAT dataset which consists of those coverage datasets? These are questions to be asked and answered.
+
+From the point of view of a search engine it would make a lot of sense if it could understand such a parent-child relationship. If it didn't understand it and would index both the parent and all its children datasets equally, then it may cause confusion when users search for datasets by geographical region etc. If a search returns a particular coverage described as DCAT dataset, then from an end user point of view it would be very helpful to discover that this coverage is part of a parent dataset, from which the user could explore sibling coverages.
+
+Hence, anything that "contains" data, even if nested within some hierarchy where only the last layer represents the actual coverages, is a dataset. Handling this generic concept is only possible if rich metadata can be expressed on the contents and relationships of such datasets.
 
 ## What needs Metadata?
 
