@@ -20,7 +20,7 @@ Sometimes, data is hidden behind web forms and a direct URI to identify a datase
 
 To come closer to the vision, we first need to be clear what a coverage and what a dataset is.
 
-The definition of coverages is quite clear, citing [Wikipedia}(https://en.wikipedia.org/wiki/Coverage_data): "A coverage is represented by its "domain" (the universe of extent) and a number of range of values representing the coverage's value at each defined location." This includes metadata of the range values, that is, what the values represent, like wind speed or temperature.
+The definition of coverages is quite clear, citing [Wikipedia](https://en.wikipedia.org/wiki/Coverage_data): "A coverage is represented by its "domain" (the universe of extent) and a number of range of values representing the coverage's value at each defined location." This includes metadata of the range values, that is, what the values represent, like wind speed or temperature.
 
 On the other hand, there is no clear definition of what a dataset is. DCAT describes a dataset as a "collection of data, published or curated by a single agent, and available for access or download in one or more formats".
 
