@@ -4,6 +4,7 @@
     "dct": "http://purl.org/dc/terms/",
     "locn": "http://www.w3.org/ns/locn#",
     "schema": "http://schema.org/",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "Dataset": "dcat:Dataset",
     "Location": "dct:Location",
     "geometry": { "@id": "locn:geometry", "@type": "gsp:wktLiteral" },
@@ -39,10 +40,13 @@
     "startDate": "2005-12-31",
     "endDate": "2006-12-31"
   },
-  "observedProperties": [
-    "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0014/",
-    "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/"
-  ],
+  "observedProperties": [{
+    "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0014/",
+    "label": "Air Potential Temperature"
+  }, {
+    "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/",
+    "label": "Air Pressure"
+  }],
   "distributions": [
     {
       "@type": "Distribution",
