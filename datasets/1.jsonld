@@ -20,7 +20,7 @@
     "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
     "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
     "mediaType": { "@id": "dcat:mediaType" },
-    "isPartOf": { "@id": "schema:isPartOf", "@type": "@id"}
+    "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"}
   },
   "@id": "http://melodiesproject.eu/datasets/1",
   "@type": "dcat:Dataset",
