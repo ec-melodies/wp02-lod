@@ -24,7 +24,7 @@
     "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
     "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
     "mediaType": { "@id": "dcat:mediaType" },
-    "parts": { "@id": "schema:hasPart", "@type": "@id" }
+    "parts": { "@id": "dct:hasPart", "@type": "@id" }
   },
   "@id": "http://melodiesproject.eu/datasets/collections/1",
   "@type": "Dataset",
