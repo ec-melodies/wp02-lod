@@ -3,8 +3,7 @@
 The following are ideas on how [CEH](http://www.ceh.ac.uk) soil moisture data can be exposed with different APIs,
 ranging from generic ones to those which use terms of the application domain within the API URLs.
 
-Each such API is exposed as a DCAT distribution on the "CEH historic soil moisture" dataset with
-proper format URI.
+Each such API is exposed as a DCAT distribution on the "CEH historic soil moisture" dataset.
 
 ## Domain model
 
