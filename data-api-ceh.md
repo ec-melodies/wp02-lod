@@ -18,7 +18,9 @@ The application domain is roughly:
 ## Generic data APIs
 
 A "generic" data API is one which at its core is independent of any application domain concepts.
-This includes OGC's W*S, SPARQL, OPeNDAP, or other such endpoints. 
+This includes OGC's W*S, SPARQL, OPeNDAP, or other such endpoints.
+See [Coverage Data REST API](https://github.com/Reading-eScience-Centre/coverage-restapi)
+for current developments within the University of Reading on creating a versatile and lightweight API.
 
 ## Custom API
 
@@ -49,6 +51,8 @@ that tube that was ever measured.
 
 By reusing generic data APIs it also becomes easy to reuse tools that can handle such
 APIs, like a web tool for visualizing coverages from a WCS/WMS/etc.
+See [Coverage Data REST API](https://github.com/Reading-eScience-Centre/coverage-restapi)
+for a flexible approach to this.
 
 Depending on the extensibility of the generic data API, one could also think of exposing
 *all* data at a single API endpoint and then use custom extension parameters to filter
