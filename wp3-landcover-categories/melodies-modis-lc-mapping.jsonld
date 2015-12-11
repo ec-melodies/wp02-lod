@@ -18,7 +18,11 @@
     "label": {
       "en": "MELODIES WP3 / MODIS Land Cover Mapping"
     },
-    "sourceObservedProperty": "http://.../wp3/lc",
+    "sourceObservedProperty": {
+      "label": {
+        "en": "MELODIES WP3 Land Cover"
+      }
+    },
     "destinationObservedProperty": {
       "id": "http://glcf.umd.edu/data/lc/",
       "label": {
