@@ -148,91 +148,91 @@
     },
     "categoryMappings": [
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Saltwater",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Saltwater",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Water"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Freshwater",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Freshwater",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Water"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#ConiferousWoodland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#ConiferousWoodland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#DeciduousNeedleleafForest"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#BroadleafWoodland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#BroadleafWoodland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#DeciduousBroadleafForest"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Heather",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Heather",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#OpenShrubland"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#HeatherGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#HeatherGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#OpenShrubland"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#ImprovedGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#ImprovedGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Grasslands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#RoughGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#RoughGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Grasslands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#NeutralGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#NeutralGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Grasslands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#CalcareousGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#CalcareousGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Grasslands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#AcidGrassland",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#AcidGrassland",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Grasslands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#FenAndMarshAndSwamp",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#FenAndMarshAndSwamp",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#PermanentWetlands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Bog",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Bog",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#PermanentWetlands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#ArableAndHorticulture",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#ArableAndHorticulture",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#Croplands"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Urban",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Urban",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#UrbanAndBuiltUp"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#Suburban",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#Suburban",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#UrbanAndBuiltUp"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#MontaneHabitats",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#MontaneHabitats",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#InlandRock",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#InlandRock",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#SupraLittoralRock",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#SupraLittoralRock",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#SupraLittoralSediment",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#SupraLittoralSediment",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#LittoralRock",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#LittoralRock",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         },
         {
-            "sourceCategory": "http://.../wp3/lc/categories#LittoralSediment",
+            "sourceCategory": "http://melodiesproject.eu/datasets/WP3/land-cover/def#LittoralSediment",
             "destinationCategory": "http://glcf.umd.edu/data/lc/categories#BarrenOrSparselyVegetated"
         }
     ]
